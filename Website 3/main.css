@@ -152,4 +152,18 @@ ul.feature-list li:before {
   border-radius: 50%;
   margin-top: -4.5em;
 }
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
