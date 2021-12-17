@@ -32,7 +32,7 @@ body {
     }
 
     nav { 
-         /*display: none;  */
+         display: none; 
     }
 
    .container {
@@ -252,11 +252,28 @@ nav {
     
 }
 
-.Exit-button { 
+.exit-button { 
     float: right; 
     margin: .5em;  
     cursor: pointer;   
 }
+
+@media only screen and (min-width: 768px){
+
+    .mobile-menu, .exit-button{
+        display: none; 
+    }
+
+    .navbar .container {
+        display: grid; 
+    }
+
+
+
+}
+
+
+
 
  
 

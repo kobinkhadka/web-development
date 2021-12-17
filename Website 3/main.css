@@ -30,7 +30,7 @@ body {
 }
 
 .navbar nav {
-  /*display: none;  */
+  display: none;
 }
 
 .navbar .container {
@@ -221,9 +221,19 @@ nav li a:hover {
   font-weight: bold;
 }
 
-.Exit-button {
+.exit-button {
   float: right;
   margin: .5em;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .exit-button {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 /*# sourceMappingURL=main.css.map */
