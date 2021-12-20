@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body { 
@@ -15,48 +16,162 @@ body {
 
 }
 
+ .first-name{
+     color: white;
+
+ }
+
+ .lastName{
+     color:rgba(255, 114, 0, 0.8); 
+ }
 .nav-buttons { 
 
     display:flex; 
     justify-content: space-around;
     list-style: none; 
     align-items: center;
-
-
 }
 
 .nav-buttons a {
 
     text-decoration: none;
-    color: white;   
+    color: white;
+    font-size: larger;
+}
 
+.nav-buttons a:hover{
+    color:rgba(255, 114, 0, 0.5); 
+    transform:rotate(45deg)
 }
 
 .search-bar{
     display: flex; 
     background-color: transparent;
-    height: 40px; 
-    width: 300px;
     padding: 5px;
     margin: -1em;
     border-width: 1px;
-    border-color: var(--primary-color);
+    border-color: rgba(255, 114, 0, 0.5);
     margin: 0; 
- 
- 
-   
-    
+    color: white;     
 }
 
 .search-button { 
-    background-color: var(--primary-color);
-    padding: 0.75em; 
+    background-color: rgba(255, 114, 0, 0.8);
+    padding:0.5em 1.5em; 
     color: white; 
+    font-size: 1.1rem;
     font-style: bold;
-    margin-left: -0.1em; 
-   
+}
+
+.search-button:hover{
+    background-color: white; 
+    color:rgba(255, 114, 0, 0.5);
 
 }
-    
-    
+
+.hero { 
+
+    margin: 9em 2em;
+
+}
+
+
+.container { 
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+}
+
+.left-side { 
+    max-width: 42%;
+    line-height: 1.5;
+
+}
+
+.left-side h1 {
+    font-size: 3em;
+    font-style: bolder;
+    letter-spacing: 0.05em;
+    margin-right: 2em;
+}
+
+.join-button { 
+    background-color: rgba(255, 114, 0, 0.8);
+    padding: 1em 4em;
+    border-radius:2em;
+    border-width: 0;
+    margin-top: 2em; 
+}
+
+.join-button:hover{
+    background-color: black;
+    color:rgba(255, 114, 0, 0.8);
+}
+
+
+
+
+
+/* right side begins here */
+
+
+.right-side{
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 2em 3em; 
+    margin: 2em 7em;
+
+}
+
+.user{ 
+    background-color: white;
+    color:rgba(255, 114, 0, 1.5);
+    padding: 1em 4em; 
+    border-radius: 10px; 
+    font-weight: 900;
+}
+
+.user:hover { 
+    background-color: rgba(255, 114, 0, 0.8);
+    color: white; 
+}
+
+.right-side input{
+     padding: 1em 1em;
+     text-align: left; 
+     border-left: none; 
+     border-right: none;
+     border-top: none; 
+     background-color: transparent; 
+     color:white; 
+     border-bottom-color:rgba(255, 114, 0, 0.8);
+
+}
+
+.login-button { 
+    background-color: rgba(255, 114, 0, 0.8);
+    padding: 1em 5em;
+    border-radius:0.5em;
+    border-width: 0;
+    margin:  2em 1em;
+
+}
+
+.login-button:hover{
+    background-color: black;
+    color:rgba(255, 114, 0, 0.8);
+}
+
+.social { 
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.fab:hover { 
+    background-color: rgba(255, 114, 0, 0.8);
+
+}
+
+
+
 
