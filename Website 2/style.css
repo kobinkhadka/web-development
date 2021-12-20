@@ -137,6 +137,7 @@ body {
 
 .right-side input{
      padding: 1em 1em;
+     margin-top: 2em;
      text-align: left; 
      border-left: none; 
      border-right: none;
